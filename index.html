@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="css/resert.css">
+  <!-- Link Swiper's CSS -->
+<link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="css/style.css">
+ <title> first</title>
+</head>
+<body>
+ <header class="header">
+  <div class="conteiner">
+   <div class="header_inner">
+    <div class="logo">
+     <a href="#">
+      <img src="../image/logo.svg" alt="logo">
+     </a>
+    </div>
+    <nav class="menu">
+     <ul class="menu__list">
+      <li class="menu__list-item">
+       <a class="menu__list-link" href="#calc">Calculator</a>
+      </li>
+      <li class="menu__list-item">
+       <a class="menu__list-link" href="#Services">Services</a>
+      </li>
+      <li class="menu__list-item">
+       <a class="menu__list-link" href="#algoritm">Algorithm</a>
+      </li>
+      <li class="menu__list-item">
+       <a class="menu__list-link" href="#conditions">Conditions</a>
+      </li>
+      <li class="menu__list-item">
+       <a class="menu__list-link" href="#anual">Questions and answers</a>
+      </li>
+      <li class="menu__list-item">
+       <a class="menu__list-link" href="#foot">Contacts</a>
+      </li>
+     </ul>
+     <div class="nav_burger">
+      <div class="burger_img">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" style="fill:rgb(255, 255, 255);">
+              <path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"></path>
+          </svg>
+      </div>
+      <div class="burger_img__close">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48" style=" fill:red;">
+              <path fill="#F44336" d="M21.5 4.5H26.501V43.5H21.5z" transform="rotate(45.001 24 24)"></path>
+              <path fill="#F44336" d="M21.5 4.5H26.5V43.501H21.5z" transform="rotate(135.008 24 24)"></path>
+          </svg>
+      </div>
+  </div>
+    </nav>
+    <div class="header_contact">
+     <div class="header_contact-item">
+      <p class="header_contact-time">Mon-Fri from 09:00 to 17:00</p>
+      <a class="header_contact-number" href="tel:+4733378901">+47 333 78 901</a>
+     </div>
+     <div class="header_contact-logo">
+      <a href="https://www.instagram.com/">
+        <img src="../image/instagram.svg" alt="instagram">
+      </a>
+      <a href="https://www.whatsapp.com/">
+        <img src="../image/whatsapp.svg" alt="whatsap
+        p">
+      </a>
+      <a href="https://telegram.org/">
+        <img src="../image/telegram-logo.svg" alt="telegram">
+      </a>
+     </div>
+    </div>
+   </div> 
+  </div>
+  <div class="application">
+    <div class="application_box">
+      <button class="application_close"><img src="../image/2/x.svg" alt="close" ></button>
+      <h3 class="application_item">Fill out an application</h3>
+      <form action="/action_page.php">
+        <label class="application_name1"for="fname">Name</label>
+        <input class="application_name" type="text" id="fname" name="fname" placeholder="Nicholas"><br><br>
+        <label class="application_number1"for="phone">Phone number</label><br><br>
+        <input class="application_number" type="tel" id="phone" name="phone" placeholder="123-45-67-89" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required>
+        <input class="application_small" href="#"  value="sand" type="submit">
+      </form>
+    </div>
+  </div>
+ </header>
+ <section id="car" class="cars">
+  <div class="conteiner">
+   <div class="cars_blocks">
+    <div class="cars_item">
+     <h1 class="cars_items-name">Car pawn shop Almaty</h1>
+      <p class="cars_items-text first">Money secured by a car WITH THE RIGHT TO DRIVE</p>
+      <p class="cars_items-text second">Interest rate 3.51% per month, no hidden fees</p>
+      <div class="cars_button">
+       <a href="#" class="cars_buttons-link">To get a consultation</a>
+      </div> 
+    </div>
+     <img class="cars_image" src="../image/car.svg" alt="car">
+   </div>   
+  </div>
+  <div class="finish conteiner">
+    <div class="finish_item">
+      <img class="finish_image" src="../image/условия кружок.svg" alt="image">
+    </div>
+  </div>
+ </section>
+ <section id="conditions" class="conditions">
+  <div class="conditions_name">
+    <h2>CONDITIONS</h2>
+  </div>
+  <div class="conteiner">
+    <div class="condition_box">
+      <article class="conditions_item">
+        <img src="../image/car (2) 1.svg" alt="image">
+        <h2>For transport:</h2>
+        <p>Passenger cars from 2001 and newer</p>
+      </article>
+      <article class="conditions_item">
+        <img src="../image/worker 1.svg" alt="image">
+        <h2>For transport:</h2>
+        <p>Passenger cars from 2001 and newer</p>
+      </article>
+      <article class="conditions_item">
+        <img src="../image/documents 1.svg" alt="image">
+        <h2>For transport:</h2>
+        <p>Passenger cars from 2001 and newer</p>
+      </article>
+      <article class="conditions_item">
+        <img src="../image/calendar (1) 1.svg" alt="image">
+        <h2>For transport:</h2>
+        <p>Passenger cars from 2001 and newer</p>
+      </article>
+      <article class="conditions_item">
+        <img src="../image/paper-money 1.svg" alt="image">
+        <h2>For transport:</h2>
+        <p>Passenger cars from 2001 and newer</p>
+      </article>
+    </div>
+  </div>
+  <div class="finish conteiner">
+    <div class="finish_item">
+      <img class="finish_image" src="../image/кружок калькулятор.svg" alt="image">
+    </div>
+  </div>
+ </section>
+ <section id="calc" class="mikro_kredit">
+  <div class="conteiner">
+    <h2 class="mikro_kredit-name">Calculate your microloan right now</h2>
+    <p class="mikro_kredit-text">Annual Effective Interest Rate (AERR) - up to 56%</p>
+    <div class="mikro_kretit-item">
+      <form  class="mikro_form" action="/action_page.php">
+        <div class="conteiner_two">
+          <p class="mikro_kretit-item-texs-first">Specify the amount</p>
+          <input class="mikro_kretit-item-pay" id="vol" name="vol" type="range" value="5000000" min="1000000" max="15000000" oninput="this.nextElementSibling.value = this.value">
+          <output>5000000</output>
+          <label class="mikro_kretit-item-Volume1" for="vol">1 million</label>        
+          <label class="mikro_kretit-item-Volume2"  for="vol">15 million</label>
+          <p class="mikro_kretit-item-texs-two">Calculate the cost of the car</p>        
+          <input class="mikro_kretit-item-button" type="submit" value="Submit your application">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="finish conteiner">
+    <div class="finish_item">
+      <img class="finish_image" src="../image/car3.svg" alt="image">
+    </div>
+  </div>
+ </section>
+ <section id="Services" class="services">
+  <div class="conteiner">
+    <h2 class="mikro_kredit-name">Services</h2>
+    <div class="car">
+      <div class="car_items">
+        <h3 class="car_inems-name">Loan secured by a car with the right to drive</h3>
+        <p class="car_items-texs">Money you can get against your car</p>
+        <a href="#" class="finance-button">To get a consultation</a>
+      </div>
+      <img class="cars_image" src="../image/car_big.svg" alt="car">
+    </div>
+    <div class="finance">
+      <div class="finance_items">
+        <div class="pirveli">
+          <img class="finance_image" src="../image/finance 1.svg" alt="finance"></div>
+        <div class="meore">
+          <h3 class="finance_inems-name">Loan refinancing</h3>
+          <p class=finance_items-texs>Replacement of existing credit obligations with a microcredit under the terms of Autopawnshops</p>
+          <a href="#" class="finance-button">To get a consultation</a></div>
+      </div>      
+    </div>
+  </div>
+  <div class="finish conteiner">
+    <div class="finish_item">
+      <img class="finish_image" src="../image/like.svg" alt="image">
+    </div>
+  </div>
+ </section>
+ <section>
+  <div class="conditions2">
+    <div class="conditions2_box">
+      <img class="conditions2_image" src="../image/alex-suprun-A53o1drQS2k-unsplash 1.png" alt="image">
+    </div>
+    <div class="conteiner">   
+      <div class="conditions2_box-mini">
+        <div class="conditions2_item">
+          <h3 class="conditions2_items-name">fast money</h3>          
+          <p class="conditions2_items-texs">"Rich Autopawnshop" offers cash secured by a car on the most favorable terms:</p>
+        </div>
+        <div class="conditions2_check">
+          <p class="conditions2_check-texs">Any term with free extension* </p>
+          <p class="conditions2_check-texs">The amount of a cash loan secured by a car is 80% of the market value of the car</p>
+          <p class="conditions2_check-texs">Daily rate from 0.1% loan</p>
+          <p class="conditions2_check-texs">Recalculation of commission on actual days of use</p>
+          <p class="conditions2_check-texs">Instant cash withdrawal (within 60 minutes)</p>
+          <p class="conditions2_check-texs">Transparent payments, no hidden fees</p>
+          <p class="conditions2_check-texs">Loyalty system for paying customers</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="finish conteiner">
+    <div class="finish_item">
+      <img class="finish_image" src="../image/Group 102.svg" alt="image">
+    </div>
+  </div>
+ </section>
+  <section id="algoritm" class="conditions">
+  <div class="conditions_name">
+    <h2>ALGORITHM FOR COMPLETING A TRANSACTION</h2>
+  </div>
+  <div class="conteiner chanch">
+    <div class="condition_box">
+      <article class="conditions_item mini">
+        <img src="../image/7/car (2) 1.svg" alt="image">
+        <h2>Step 1</h2>
+        <p>Contact the manager, use the pre-evaluation service by phone</p>
+      </article>
+      <article class="conditions_item mini">
+        <img src="../image/7/office-building 1.svg" alt="image">
+        <h2>Step 2</h2>
+        <p>Come to the office, at a convenient time for you, to complete the contract</p>
+      </article>
+      <article class="conditions_item mini">
+        <img src="../image/7/car-check 1.svg" alt="image">
+        <h2>Step 3</h2>
+        <p>Employees will assess the condition of the car and check its cleanliness from the legal side</p>
+      </article>
+      <article class="conditions_item mini">
+        <img src="../image/7/proposal 1.svg" alt="image">
+        <h2>Step 4</h2>
+        <p>An agreement is drawn up, it specifies the loan amount, term and interest rate</p>
+      </article>
+      <article class="conditions_item mini">
+        <img src="../image/7/profits 1.svg" alt="image">
+        <h2>Step 5</h2>
+        <p>After signing the documents, the client receives cash at the cash desk</p>
+      </article>
+    </div>
+  </div>
+  <div class="finish conteiner">
+    <div class="finish_item">
+      <img class="finish_image" src="../image/Кружок.svg" alt="image">
+    </div>
+  </div>
+ </section>
+ <section>
+  <div class="conditions2 money">
+    <div class="conditions2_box money_fill">
+      <img class="conditions2_image filling" src="../image/8/car.png" alt="image">
+    </div>
+    <div class="conteiner">   
+      <div class="money_box-mini">
+        <div class="box-mini_left">
+          <img src="../image/8/прозрачный фон rich 3.svg" alt="image">
+        </div>
+        
+        <div class="box-mini_right">
+          <h3 class="right_name">The most favorable conditions</h3>                    
+          <p class="right_big_text">«Rich If you had to face financial difficulties, then you know the way to the bank. But it is almost impossible to get money in it quickly. In addition to a good credit history, it requires guarantors, and the whole procedure takes more than one day. A great alternative is to use the auto deposit service. Having drawn up an agreement literally within 60 minutes without paperwork and guarantors, you will receive the required amount. And although this is a so-called "short" loan, flexible parameters make it convenient for many cases. Need money urgently? Contact the car pawnshop on the security of cars and evaluate all the advantages of working with us.</p>
+        </div>
+      </div>
+    </div>    
+  </div>
+  <div class="finish conteiner">
+    <div class="finish_item">
+      <img class="finish_image" src="../image/8/Group 104.svg" alt="image">
+    </div>
+  </div>
+ </section>
+ <section>
+  <div class="conteiner">
+    <div class="advantages_name">
+      <h2>Our advantages</h2>
+      <p>In addition to the car loan itself, our client can count on a number of advantageous offers.</p>
+    </div>
+   <div class="advantages_item">
+    <div class="advantages_item-left">
+      <ui class="advantages_item-left-text">
+        <li>Possibility of early repayment, in which interest is charged only for the days of using the money</li>
+        <li>Recalculation of interest on partial repayment of debt</li>
+        <li>Loan secured by a car, under the terms of which the owner continues to use the car</li>
+        <li>Full openness and transparency of settlements</li>
+        <li>Prolongation of the contract up to a year, carried out without additional payments from the client</li>
+        <li>We work on the basis of a license</li>
+      </ui>
+    </div>
+    <div class="advantages_item-right">
+      <img src="../image/9/car.svg" alt="image">
+    </div>
+   </div>
+    
+  </div>
+  <div class="finish conteiner">
+    <div class="finish_item">
+      <img class="finish_image" src="../image/9/Group 80.svg" alt="image">
+    </div>
+  </div>
+
+ </section>
+</section>
+<section id="slide">
+  <div class="conteiner">
+    <h2 class="mikro_kredit-name">What clients say about us</h2>
+     <div class="swiper mySwiper">
+      <div class="swiper-wrapper slider">
+        <div class="swiper-slide slider_item">
+          <h4 class="slider_items-name">Regina Churchova</h4>
+          <img class="slider_items-star" src="../image/10/Frame 2.svg" alt="stars">
+          <p class="slider_items-text">Went on the recommendation of friends. Didn't regret it! Convenient parking location, competent employees and, most importantly, the most favorable conditions compared to competitors. Thanks for the mutually beneficial cooperation!</p>
+        </div>
+        <div class="swiper-slide slider_item">
+          <h4 class="slider_items-name">Ruslan Makataev</h4>
+          <img class="slider_items-star" src="../image/10/Frame 2.svg" alt="stars">
+          <p class="slider_items-text">I contacted the company, urgently needed to find money. Well done employees quickly and without problems issued, they explained everything intelligibly and the percentage is not high. Good luck with your work!</p>
+        </div>
+        <div class="swiper-slide slider_item">
+          <h4 class="slider_items-name">Evgenia Afonina</h4>
+          <img class="slider_items-star" src="../image/10/Frame 2.svg" alt="stars">
+          <p class="slider_items-text">Great car dealership! I highly recommend to everyone! Everything was sorted out quickly. Low percentage. Polite staff. Great service. Thank you🙏</p>
+        </div>
+        <div class="swiper-slide slider_item">
+          <h4 class="slider_items-name">Regina Churchova</h4>
+          <img class="slider_items-star" src="../image/10/Frame 2.svg" alt="stars">
+          <p class="slider_items-text">Went on the recommendation of friends. Didn't regret it! Convenient parking location, competent employees and, most importantly, the most favorable conditions compared to competitors. Thanks for the mutually beneficial cooperation!</p>
+        </div>
+        <div class="swiper-slide slider_item">
+          <h4 class="slider_items-name">Ruslan Makataev</h4>
+          <img class="slider_items-star" src="../image/10/Frame 2.svg" alt="stars">
+          <p class="slider_items-text">I contacted the company, urgently needed to find money. Well done employees quickly and without problems issued, they explained everything intelligibly and the percentage is not high. Good luck with your work!</p>
+        </div>
+        <div class="swiper-slide slider_item">
+          <h4 class="slider_items-name">Evgenia Afonina</h4>
+          <img class="slider_items-star" src="../image/10/Frame 2.svg" alt="stars">
+          <p class="slider_items-text">Great car dealership! I highly recommend to everyone! Everything was sorted out quickly. Low percentage. Polite staff. Great service. Thank you🙏</p>
+        </div>
+        <div class="swiper-slide slider_item">
+          <h4 class="slider_items-name">Regina Churchova</h4>
+          <img class="slider_items-star" src="../image/10/Frame 2.svg" alt="stars">
+          <p class="slider_items-text">Went on the recommendation of friends. Didn't regret it! Convenient parking location, competent employees and, most importantly, the most favorable conditions compared to competitors. Thanks for the mutually beneficial cooperation!</p>
+        </div>
+        <div class="swiper-slide slider_item">
+          <h4 class="slider_items-name">Ruslan Makataev</h4>
+          <img class="slider_items-star" src="../image/10/Frame 2.svg" alt="stars">
+          <p class="slider_items-text">I contacted the company, urgently needed to find money. Well done employees quickly and without problems issued, they explained everything intelligibly and the percentage is not high. Good luck with your work!</p>
+        </div>
+        <div class="swiper-slide slider_item">
+          <h4 class="slider_items-name">Evgenia Afonina</h4>
+          <img class="slider_items-star" src="../image/10/Frame 2.svg" alt="stars">
+          <p class="slider_items-text">Great car dealership! I highly recommend to everyone! Everything was sorted out quickly. Low percentage. Polite staff. Great service. Thank you🙏</p>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+   
+  </div>
+<div class="finish conteiner">
+  <div class="finish_item">
+    <img class="finish_image" src="../image/10/Group 105.svg" alt="image">
+  </div>
+</div>  
+</section>
+ <section id="anual">
+  <div class="conteiner">
+    <h2 class="mikro_kredit-name">Questions and answers</h2>
+    <div class="anual">
+      <div class="anual_box  larg">
+        <p class="anual_question">What documents are needed?</p>
+        <p class="anual_answer sees">Identity card of the owner of the car, those. car passport.</p>
+      </div>
+      <div class="anual_box">
+        <p class="anual_question">Payment Methods</p>
+        <p class="anual_answer">Identity card of the owner of the car, those. car passport.</p>
+      </div>
+      <div class="anual_box">
+        <p class="anual_question">What is the maximum loan term?</p>
+        <p class="anual_answer">Identity card of the owner of the car, those. car passport.</p>
+      </div>
+      <div class="anual_box">
+        <p class="anual_question">How much can I get for my car?</p>
+        <p class="anual_answer">Identity card of the owner of the car, those. car passport.</p>
+      </div>
+      <div class="anual_box">
+        <p class="anual_question">Do you accept foreign cars?</p>
+        <p class="anual_answer">Identity card of the owner of the car, those. car passport.</p>
+      </div>
+      <div class="anual_box">
+        <p class="anual_question">What documents are needed?</p>
+        <p class="anual_answer ">Identity card of the owner of the car, those. car passport.</p>
+      </div>
+    </div>
+  </div>
+  <div class="finish conteiner">
+    <div class="finish_item">
+      <img class="finish_image" src="../image/10/Group 105.svg" alt="image">
+    </div>
+  </div>  
+ </section>
+ <footer id="foot">
+  <iframe class="big_map" <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d269769.16963550844!2d44.64391292111786!3d41.66532566165905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf6b8887751f03d39!2zNDHCsDQxJzM0LjgiTiA0NMKwNDgnMDUuOSJF!5e0!3m2!1sen!2sge!4v1675803725499!5m2!1sen!2sge" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="maps_item footer_links">
+    <h4 class="maps_items-name">Contacts</h4>
+    <p class="maps_items-text">Timiryazeva street, 42 k36/2, office 15, Bostandyk district, Almaty, 050057</p>
+    <p class="maps_items-text1">Mon-Fri from 09:00 to 17:00</p>
+    <p class="maps_items-text2"> 8707-770-90-80
+    </p>
+    <a class="maps_items-link" href="https://mail.google.com" target="_blank">rich.autolombard@gmail.com</a>
+    <div class="header_contact-logo">
+      <a href="https://www.instagram.com/">
+        <img src="../image/instagram.svg" alt="instagram">
+      </a>
+      <a href="https://www.whatsapp.com/">
+        <img src="../image/whatsapp.svg" alt="whatsap
+        p">
+      </a>
+      <a href="https://telegram.org/">
+        <img src="../image/telegram-logo.svg" alt="telegram">
+      </a>
+    </div>
+    <img class="maps_logo" src="../image/12/Group 26.svg" alt="logo" class="image_logo">
+    
+  </div>
+ </footer>
+ <!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+ <script src="js/main.js"></script>
+</body>
+</html>
