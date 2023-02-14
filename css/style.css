@@ -8,8 +8,8 @@ body {
 body.active::after {
   content: "";
   background-color: rgba(0, 0, 0, 0.904);
-  width: 1920px;
-  height: 1vh;
+  max-width: 1920px;
+  min-height: 4900px;
   position: absolute;
   z-index: 900;
   top: 0px;
