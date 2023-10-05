@@ -1,4 +1,4 @@
 # Merabi-Giorgadze.github.io
 
 
-(see)(https://merabi-giorgadze.github.io/)
+https://merabi-giorgadze.github.io/)
